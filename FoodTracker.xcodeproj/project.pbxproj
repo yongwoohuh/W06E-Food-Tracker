@@ -14,6 +14,7 @@
 		91103EAE2041FF29001F4090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91103EAC2041FF29001F4090 /* LaunchScreen.storyboard */; };
 		91103EB92041FF29001F4090 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91103EB82041FF29001F4090 /* FoodTrackerTests.swift */; };
 		91103EC4204217F2001F4090 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91103EC3204217F2001F4090 /* RatingControl.swift */; };
+		91103EC62042CBA1001F4090 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91103EC52042CBA1001F4090 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		91103EB82041FF29001F4090 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		91103EBA2041FF29001F4090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91103EC3204217F2001F4090 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		91103EC52042CBA1001F4090 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				91103EA32041FF29001F4090 /* AppDelegate.swift */,
 				91103EA52041FF29001F4090 /* ViewController.swift */,
+				91103EC52042CBA1001F4090 /* Meal.swift */,
 				91103EC3204217F2001F4090 /* RatingControl.swift */,
 				91103EA72041FF29001F4090 /* Main.storyboard */,
 				91103EAA2041FF29001F4090 /* Assets.xcassets */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91103EC62042CBA1001F4090 /* Meal.swift in Sources */,
 				91103EA62041FF29001F4090 /* ViewController.swift in Sources */,
 				91103EC4204217F2001F4090 /* RatingControl.swift in Sources */,
 				91103EA42041FF29001F4090 /* AppDelegate.swift in Sources */,
