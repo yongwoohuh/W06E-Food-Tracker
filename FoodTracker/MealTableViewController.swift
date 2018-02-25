@@ -97,6 +97,16 @@ class MealTableViewController: UITableViewController {
     }
     */
     
+    //MAKR: Actions
+    @IBAction func unwindToMealLIst(sender: UIStoryboardSegue) {
+        if let sourceViewController = sender.source as? MealViewController, let meal = sourceViewController.meal {
+            // Add a new meal.
+            let newIndexPath = IndexPath(row: meals.count, section: 0)
+            meals.append(meal)
+            tableView.insertRows(at: [newIndexPath], with: .automatic)
+        }
+    }
+    
     //MARK: Private Methods
     private func loadSampleMeals() {
         let photo1 = UIImage(named: "meal1")
